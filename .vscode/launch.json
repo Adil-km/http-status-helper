@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "extensionHost",
+      "request": "launch",
+      "name": "Run Extension",
+      "runtimeExecutable": "${execPath}",
+      "program": "${workspaceFolder}/${input:extensionEntry}",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}"
+      ],
+      "outFiles": [
+        "${workspaceFolder}/dist/**/*.js"
+      ],
+      "preLaunchTask": "npm: compile"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "extensionEntry",
+      "description": "Path to your extension's compiled entry point (e.g. dist/extension.js)"
+    }
+  ]
+}

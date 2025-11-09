@@ -3,9 +3,13 @@
   "displayName": "HTTP Status Codes Helper",
   "description": "Quickly insert and view details for HTTP status codes.",
   "version": "0.1.0",
-  "publisher": "your-publisher-name",
+  "publisher": "adil-km",
   "engines": {
     "vscode": "^1.105.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adil-km/http-status-helper"
   },
   "categories": [
     "Snippets",
