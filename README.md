@@ -27,14 +27,16 @@ Simply start typing a common pattern for setting a status code. The completion l
 
 When you select an item (e.g., `201 Created`), only the numeric code (`201`) is inserted.
 
-![IntelliSense Completion Example](https://i.imgur.com/example.gif) ### 2. Hover Information
+<img src="https://github.com/user-attachments/assets/b8e0f1fe-9a77-4b19-ad97-e0305d4f067f" alt="IntelliSense Completion Example" width="80%">
+
+### 2. Hover Information
 
 Hover your mouse over any 3-digit status code in your code to get instant details.
 
-![Hover Tooltip Example](https://i.imgur.com/example.png) > **Hover:**
-> **404 Not Found**
->
-> The server can not find the requested resource. In an API, this can also mean the endpoint is valid but the resource itself does not exist.
+<img src="https://github.com/user-attachments/assets/14483808-ca56-41a3-9737-a4a578bdf987" alt="Hover Tooltip Example" width="80%"/>
+
+> **400 Bad Request**
+> The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax).
 
 ### 3. Command Palette
 
@@ -67,4 +69,4 @@ You can customize the extension's behavior via your `settings.json` file or the 
 
 ---
 
-**Enjoy!**
+**Enjoy! ❤️**
