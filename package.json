@@ -2,7 +2,7 @@
   "name": "http-status-helper",
   "displayName": "HTTP Status Codes Helper",
   "description": "Quickly insert and view details for HTTP status codes.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "adil-km",
   "engines": {
     "vscode": "^1.105.0"
