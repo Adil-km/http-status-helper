@@ -1,0 +1,177 @@
+[
+  {
+    "code": 100,
+    "name": "Continue",
+    "description": "The server has received the request headers and the client should proceed to send the request body."
+  },
+  {
+    "code": 101,
+    "name": "Switching Protocols",
+    "description": "The server is switching protocols as requested by the client."
+  },
+  {
+    "code": 102,
+    "name": "Processing",
+    "description": "The server has received and is processing the request, but no response is available yet."
+  },
+  {
+    "code": 200,
+    "name": "OK",
+    "description": "The request succeeded. The meaning of 'success' depends on the HTTP method."
+  },
+  {
+    "code": 201,
+    "name": "Created",
+    "description": "The request has been fulfilled and resulted in a new resource being created."
+  },
+  {
+    "code": 202,
+    "name": "Accepted",
+    "description": "The request has been accepted for processing, but the processing has not been completed."
+  },
+  {
+    "code": 203,
+    "name": "Non-Authoritative Information",
+    "description": "The server is a transforming proxy that received a 200 OK from its origin, but is returning a modified version of the origin's response."
+  },
+  {
+    "code": 204,
+    "name": "No Content",
+    "description": "The server successfully processed the request, but is not returning any content."
+  },
+  {
+    "code": 205,
+    "name": "Reset Content",
+    "description": "The server successfully processed the request, and asks that the user agent reset the document view."
+  },
+  {
+    "code": 206,
+    "name": "Partial Content",
+    "description": "The server is delivering only part of the resource due to a range header sent by the client."
+  },
+  {
+    "code": 300,
+    "name": "Multiple Choices",
+    "description": "The request has more than one possible response. The user agent or user should choose one of them."
+  },
+  {
+    "code": 301,
+    "name": "Moved Permanently",
+    "description": "The URL of the requested resource has been changed permanently. A new URL is given in the response."
+  },
+  {
+    "code": 302,
+    "name": "Found",
+    "description": "The URL of the requested resource has been changed temporarily. A new URL is given in the response."
+  },
+  {
+    "code": 303,
+    "name": "See Other",
+    "description": "The server sent this response to direct the client to get the requested resource at another URI with a GET request."
+  },
+  {
+    "code": 304,
+    "name": "Not Modified",
+    "description": "Used for caching purposes. Tells the client that the response has not been modified, so the client can continue to use the same cached version of the response."
+  },
+  {
+    "code": 307,
+    "name": "Temporary Redirect",
+    "description": "The server sends this response to direct the client to get the requested resource at another URI with same method that was used in the prior request."
+  },
+  {
+    "code": 308,
+    "name": "Permanent Redirect",
+    "description": "The resource is now permanently located at another URI, specified by the Location: HTTP Response header. This has the same semantics as the 301."
+  },
+  {
+    "code": 400,
+    "name": "Bad Request",
+    "description": "The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax)."
+  },
+  {
+    "code": 401,
+    "name": "Unauthorized",
+    "description": "The client must authenticate itself to get the requested response. (Often used for 'unauthenticated')."
+  },
+  {
+    "code": 402,
+    "name": "Payment Required",
+    "description": "This response code is reserved for future use. The initial aim for creating this code was using it for digital payment systems."
+  },
+  {
+    "code": 403,
+    "name": "Forbidden",
+    "description": "The client does not have access rights to the content; that is, it is unauthorized, so the server is refusing to give the requested resource."
+  },
+  {
+    "code": 404,
+    "name": "Not Found",
+    "description": "The server can not find the requested resource. In an API, this can also mean the endpoint is valid but the resource itself does not exist."
+  },
+  {
+    "code": 405,
+    "name": "Method Not Allowed",
+    "description": "The request method is known by the server but is not supported by the target resource."
+  },
+  {
+    "code": 406,
+    "name": "Not Acceptable",
+    "description": "The server cannot produce a response matching the list of acceptable values defined in the request's proactive content negotiation headers."
+  },
+  {
+    "code": 408,
+    "name": "Request Timeout",
+    "description": "The server would like to shut down this unused connection. It is sent on an idle connection by some servers, even without any previous request by the client."
+  },
+  {
+    "code": 409,
+    "name": "Conflict",
+    "description": "The request conflicts with the current state of the server (e.g., a resource conflict)."
+  },
+  {
+    "code": 410,
+    "name": "Gone",
+    "description": "The requested content has been permanently deleted from server, with no forwarding address."
+  },
+  {
+    "code": 418,
+    "name": "I'm a teapot",
+    "description": "The server refuses the attempt to brew coffee with a teapot. (A humorous April Fools' joke RFC)."
+  },
+  {
+    "code": 422,
+    "name": "Unprocessable Entity",
+    "description": "The request was well-formed but was unable to be followed due to semantic errors."
+  },
+  {
+    "code": 429,
+    "name": "Too Many Requests",
+    "description": "The user has sent too many requests in a given amount of time ('rate limiting')."
+  },
+  {
+    "code": 500,
+    "name": "Internal Server Error",
+    "description": "The server has encountered a situation it doesn't know how to handle. A generic 'catch-all' error."
+  },
+  {
+    "code": 501,
+    "name": "Not Implemented",
+    "description": "The request method is not supported by the server and cannot be handled."
+  },
+  {
+    "code": 502,
+    "name": "Bad Gateway",
+    "description": "The server, while acting as a gateway or proxy, received an invalid response from an inbound server it accessed."
+  },
+  {
+    "code": 503,
+    "name": "Service Unavailable",
+    "description": "The server is not ready to handle the request. Common causes are a server that is down for maintenance or that is overloaded."
+  },
+  {
+    "code": 504,
+    "name": "Gateway Timeout",
+    "description": "The server, acting as a gateway or proxy, did not get a response in time from the upstream server."
+  }
+]
