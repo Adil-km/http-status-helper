@@ -3,3 +3,12 @@ dist
 node_modules
 .vscode-test/
 *.vsix
+
+# Ignore all .vscode content
+.vscode/*
+
+# But DO commit these team-shared files
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
